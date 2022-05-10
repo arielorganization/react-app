@@ -21,8 +21,8 @@ export const LazyLayout = () => {
         </ul>
         <Routes>
             <Route path="lazy1" element={<LazyPage1 />}/>
-            <Route path="lazy1" element={<LazyPage2 />}/>
-            <Route path="lazy1" element={<LazyPage3 />}/>
+            <Route path="lazy2" element={<LazyPage2 />}/>
+            <Route path="lazy3" element={<LazyPage3 />}/>
             
             {/* <Route path="*" element={ <div>Not Found</div>} /> */}
             {/* redirige por defaul a lazy1 */}
